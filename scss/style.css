@@ -2,4 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  background-color: brown;
+  min-height: 400px;
+}
+.container .box {
+  background-color: cyan;
+}
+.container .boxOne {
+  width: 18%;
+}
+.container .boxTwo {
+  width: 82%;
+  background-color: rebeccapurple;
 }/*# sourceMappingURL=style.css.map */
