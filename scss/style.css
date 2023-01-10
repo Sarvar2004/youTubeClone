@@ -2,4 +2,44 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.navbar {
+  height: 56px;
+  max-width: 1366px;
+  background-color: #555555;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0 260px;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper {
+  height: 30px;
+  width: 400px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid gray;
+}
+
+.btn {
+  width: 65px;
+  height: 30px;
+  align-items: center;
+  background-color: #949393;
+  border: none;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 0 30px;
+  padding-left: 30px;
 }/*# sourceMappingURL=style.css.map */
