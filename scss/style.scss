@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 100%;
+    display: flex;
+    background-color: brown;
+    min-height: 400px;
+    .box {
+        
+        background-color: cyan;
+    }
+    .boxOne {
+        width: 18%;
+    }
+    .boxTwo{
+        width:82%;
+        background-color: rebeccapurple;
+    }
+}
